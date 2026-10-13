@@ -1,0 +1,37 @@
+name: Bug report
+description: Something isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Enable ...
+        2. Plug in the charger ...
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and Android version
+      placeholder: Pixel 8, Android 16
+    validations:
+      required: true
+  - type: dropdown
+    id: start
+    attributes:
+      label: How was standby started?
+      options:
+        - Screen saver (While charging)
+        - Auto-launch when charging
+        - "Start standby now" button
+  - type: input
+    id: version
+    attributes:
+      label: App version

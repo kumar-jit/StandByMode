@@ -1,0 +1,37 @@
+name: New widget proposal
+description: Propose (or claim) a new clock or calendar widget
+labels: [widget, enhancement]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Widget type
+      options:
+        - Clock
+        - Calendar
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name and proposed id
+      placeholder: Neon (id = neon)
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: What does it look like?
+      description: Sketch, mockup or reference image. Mention any options (toggles/choices) it should have.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Widget guidelines (docs/WIDGETS.md)
+      options:
+        - label: Uses only state.colors (works in night mode)
+          required: true
+        - label: Needs no network, permissions or system services
+          required: true
+        - label: I'd like to build it myself
