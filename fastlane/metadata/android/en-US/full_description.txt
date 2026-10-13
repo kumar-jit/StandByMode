@@ -1,0 +1,27 @@
+OpenStandby turns your phone into a bedside clock while it charges, like StandBy on the iPhone. It shows a big clock, your calendar and important notifications right over the lock screen.
+
+<b>100% offline.</b> The app has no internet permission. Your notifications and calendar never leave the phone.
+
+<b>Features</b>
+<ul>
+<li>Starts while charging as Android's screen saver, or automatically when you plug in</li>
+<li>Clock widgets: Digital, Analog, Flip, Minimal and Words ("quarter past ten")</li>
+<li>Calendar widgets: Month, Agenda, Big date and Week, using your phone's own calendar</li>
+<li>Show the clock and calendar together, or just one of them</li>
+<li>Important notifications: messages, calls, alarms, reminders, plus apps you choose</li>
+<li>Privacy by default: only app names are shown unless you allow message content</li>
+<li>Night mode with a dim, red-only display for dark bedrooms</li>
+<li>Burn-in protection for OLED screens</li>
+<li>Accent colours, 12/24-hour time, optional seconds</li>
+<li>Tap the clock or calendar to switch styles</li>
+</ul>
+
+<b>Open source and built for contributors</b>
+Clock and calendar faces are plug-in widgets with a simple standard interface. Anyone can add new ones; see docs/WIDGETS.md in the repository.
+
+<b>Permissions</b>
+<ul>
+<li>Notification access: to show important notifications (kept in memory only)</li>
+<li>Calendar (read): to show your events</li>
+<li>Notifications, full-screen intent, foreground service, run at startup: only for the optional "open automatically when charging" feature</li>
+</ul>

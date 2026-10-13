@@ -13,3 +13,6 @@
 *.aab
 *.keystore
 *.jks
+
+# Release signing (never commit)
+keystore.properties

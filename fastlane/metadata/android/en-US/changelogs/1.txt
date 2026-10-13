@@ -1,0 +1,7 @@
+First release of OpenStandby.
+
+- Standby clock, calendar and important notifications while charging
+- 5 clock widgets and 4 calendar widgets, with per-widget options
+- Screen-saver mode and optional auto-launch when plugged in
+- Night mode, burn-in protection, accent colours
+- Fully offline

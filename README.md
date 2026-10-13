@@ -43,6 +43,16 @@ Standby closes itself when you unplug, and the back gesture closes it at any tim
 
 No internet, location, contacts, or storage permissions.
 
+## Download
+
+- **GitHub Releases:** grab the latest `OpenStandby-vX.Y.Z.apk` from the [Releases page](https://github.com/kumar-jit/StandByMode/releases)
+- **F-Droid / IzzyOnDroid:** coming soon
+
+Android may warn about installing apps from outside Google Play. Allow installs from your browser or file
+manager, and if Play Protect shows a warning, tap *More details › Install anyway*.
+
+Maintainers: see [docs/RELEASING.md](docs/RELEASING.md) for how releases are made.
+
 ## Building
 
 Requirements: Android Studio (recent stable) or JDK 17+, and the Android SDK (compileSdk 37).
